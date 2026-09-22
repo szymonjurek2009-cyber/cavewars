@@ -1,0 +1,38 @@
+menu_title: '&0Wybierz arenę'
+open_command:
+  - areny
+  - arena
+size: 27
+update_interval: 5
+
+items:
+  arena_1:
+    material: DIAMOND_PICKAXE
+    slot: 13
+    display_name: '&a&lArena 1'
+    lore:
+      - '&7Mapa: &fArena_1'
+      - '&7Tryb: &fCaveWars'
+      - ''
+      - '&eKliknij, aby dołączyć!'
+    left_click_commands:
+      - '[close]'
+      - '[player] cw join'
+    right_click_commands:
+      - '[close]'
+      - '[player] cw join'
+
+  info:
+    material: BOOK
+    slot: 22
+    display_name: '&eWybór areny'
+    lore:
+      - '&7Wybierz arenę powyżej.'
+      - '&7Kolejne areny można dodać tutaj.'
+
+  close:
+    material: BARRIER
+    slot: 26
+    display_name: '&cZamknij'
+    click_commands:
+      - '[close]'

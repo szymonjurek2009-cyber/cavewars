@@ -1,0 +1,25 @@
+enabled: true
+server-key: cavewars
+server-name: CaveWars
+wait-for-authme: false
+post-auth-delay-ticks: 10
+title:
+  enabled: true
+  main: "<red><bold>CAVEWARS</bold></red>"
+  subtitle: "<yellow>Jesteś na serwerze <white>CaveWars</white></yellow>"
+  action-bar: "<gray>Serwer: <white>CaveWars</white></gray>"
+  fade-in-ticks: 10
+  stay-ticks: 50
+  fade-out-ticks: 15
+fireworks:
+  enabled: true
+  count: 3
+  spacing-ticks: 5
+  radius: 1.4
+  y-offset: 1.0
+  power: 0
+  type: BURST
+  colors: [RED, ORANGE, WHITE]
+  fade-colors: [WHITE]
+  flicker: true
+  trail: true

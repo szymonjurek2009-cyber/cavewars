@@ -1,0 +1,15 @@
+# Świat, do którego gracze zostaną przeniesieni po usunięciu areny.
+# Jeśli go nie ma, plugin wybierze pierwszy zwykły świat serwera.
+fallback-world: world
+
+world:
+  autosave: false
+  disable-mob-spawning: true
+  freeze-time: true
+  clear-weather: true
+
+# Przy /cww template create <nazwa> powstaje mała platforma do budowania.
+template-editor:
+  platform: true
+  platform-y: 100
+  platform-radius: 2

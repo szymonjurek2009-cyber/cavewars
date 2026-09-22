@@ -1,0 +1,17 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@run-slicer/vf": "^0.6.4-1.12.0",
+    "java-class-tools": "^1.3.2",
+    "jszip": "^3.10.1"
+  }
+}

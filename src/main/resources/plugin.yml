@@ -1,0 +1,47 @@
+name: CaveWars
+version: '1.3.2-suite'
+main: pl.cavewars.CaveWarsPlugin
+api-version: '1.21.10'
+description: CaveWars Suite - gra, areny, statystyki, reguly, chat i integracje w jednym pluginie
+depend: [Citizens, EssentialsChat]
+softdepend: [DeluxeMenus]
+commands:
+  cavewars:
+    description: Glowna komenda CaveWars
+    usage: /cavewars help
+    aliases: [cw]
+  topki:
+    description: Rankingi i hologramy CaveWars
+    usage: /topki [zabicia|przegrane|wygrane|kd|czas|create|move|remove|rotate|list|win]
+  hstat:
+    description: Osobiste hologramy statystyk CaveWars
+    usage: /hstat <create|remove|move|list|wygrana> [nazwa lub nick/UUID] [liczba]
+    permission: holostats.admin
+  staty:
+    description: Statystyki CaveWars z przegranymi
+    usage: /staty [gracz]
+  przegrane:
+    description: TOP 10 przegranych
+    usage: /przegrane
+  caveworlds:
+    description: Zarzadzanie tymczasowymi swiatami CaveWars
+    usage: /cww help
+    aliases: [cww, caveworld]
+    permission: caveworlds.admin
+  arenachatdebugsend:
+    permission: cavewars.arenachat.testdriver
+    usage: /arenachatdebugsend <player> <message>
+permissions:
+  cavewars.admin:
+    default: op
+  topki.admin:
+    default: op
+  holostats.admin:
+    default: op
+  caveworlds.admin:
+    description: Pozwala zarzadzac swiatami CaveWars
+    default: op
+  cavewars.arenachat.debug:
+    default: false
+  cavewars.arenachat.testdriver:
+    default: op

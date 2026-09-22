@@ -1,0 +1,114 @@
+server-name: JZ Network — CaveWars
+public-systems:
+- CaveWars
+- Kary
+- AntyCheat
+- Wybór Areny
+help-lines:
+- '&6&lJZ NETWORK &8— &fCaveWars'
+- '&e/areny &7— wybór areny'
+- '&e/cw join &7— dołącz do gry'
+- '&e/cw leave &7— opuść grę'
+- '&e/staty &7— statystyki gracza'
+- '&e/topki &7— rankingi CaveWars'
+- '&e/server &7— wybór serwera'
+- '&e/list &7— lista graczy online'
+- '&e/systemy &7— lista systemów serwera'
+- '&e/pomoc &7— ta pomoc'
+hidden-command-roots:
+- plugins
+- pl
+- version
+- ver
+- about
+- bukkit
+- paper
+- minecraft
+- luckperms
+- lp
+- worldedit
+- we
+- papi
+- placeholderapi
+- commandapi
+- grim
+- deluxemenus
+- dm
+- multiverse
+- mv
+- mvtp
+- fakeplayer
+- fp
+- autonomousplayers
+- ap
+intercept:
+  plugins: false
+  version: true
+  help: true
+  list: true
+admin-help-lines:
+- '&e/ap &7— zarządzanie autonomicznymi botami'
+- '&e/cww &7— światy i szablony aren CaveWars'
+- '&e/lp &7— rangi i uprawnienia'
+- '&e/we &7— edycja świata'
+- '&e/mv &7— zarządzanie światami'
+- '&e/dm &7— administracja menu'
+- '&e/grim &7— administracja AntyCheat'
+- '&e/fluxbans &7— administracja karami'
+- '&e/backup &7— ręczne backupy CaveWars'
+- '&e/diag &7— diagnostyka serwera'
+command-descriptions:
+  systemy: Pokazuje listę publicznych systemów dostępnych na tym serwerze.
+  pomoc: Pokazuje skróconą pomoc i opisy najważniejszych komend.
+  list: Pokazuje liczbę graczy online oraz ich nicki.
+  online: Pokazuje liczbę graczy online oraz ich nicki.
+  ap: Zarządzanie autonomicznymi botami AP (AutonomousPlayers).
+  autonomousplayers: Zarządzanie autonomicznymi botami AP (AutonomousPlayers).
+  fp: Niskopoziomowe narzędzia administracyjne dla fałszywych graczy.
+  fakeplayer: Niskopoziomowe narzędzia administracyjne dla fałszywych graczy.
+  lp: Zarządzanie rangami, grupami i uprawnieniami LuckPerms.
+  luckperms: Zarządzanie rangami, grupami i uprawnieniami LuckPerms.
+  we: Edycja bloków i obszarów świata przy użyciu WorldEdit.
+  worldedit: Edycja bloków i obszarów świata przy użyciu WorldEdit.
+  wg: Zarządzanie regionami oraz ochroną świata WorldGuard.
+  worldguard: Zarządzanie regionami oraz ochroną świata WorldGuard.
+  diag: Szczegółowa diagnostyka serwera, graczy, pluginów i hosta.
+  jzjoinux: Zarządzanie efektami wejścia, ekranem nazwy serwera i fajerwerkami.
+  fluxbans: Administracja systemem kar, banów, wyciszeń, ostrzeżeń i historii.
+  ban: Nakłada permanentnego bana na gracza.
+  tempban: Nakłada czasowego bana na gracza.
+  banip: Blokuje adres IP gracza.
+  unban: Usuwa bana gracza.
+  unbanip: Usuwa blokadę adresu IP.
+  mute: Wycisza gracza.
+  tempmute: Wycisza gracza na określony czas.
+  unmute: Usuwa wyciszenie gracza.
+  kick: Wyrzuca gracza z serwera.
+  warn: Dodaje ostrzeżenie graczowi.
+  unwarn: Usuwa wskazane ostrzeżenie gracza.
+  history: Pokazuje historię kar gracza.
+  check: Pokazuje aktualny stan kar i blokad gracza.
+  placeholderapi: Zarządzanie placeholderami i rozszerzeniami PlaceholderAPI.
+  papi: Zarządzanie placeholderami i rozszerzeniami PlaceholderAPI.
+  server: Otwiera wybór serwera w sieci JZ Network.
+  areny: Otwiera graficzny wybór aren CaveWars.
+  arena: Otwiera graficzny wybór aren CaveWars.
+  cw: 'Główna komenda trybu CaveWars: dołączanie, opuszczanie i zarządzanie grą.'
+  cavewars: 'Główna komenda trybu CaveWars: dołączanie, opuszczanie i zarządzanie grą.'
+  topki: Pokazuje rankingi CaveWars oraz zarządza ich hologramami.
+  hstat: Zarządza osobistymi hologramami statystyk CaveWars.
+  staty: Pokazuje statystyki CaveWars wskazanego gracza.
+  przegrane: Pokazuje ranking graczy z największą liczbą przegranych.
+  cww: Zarządzanie tymczasowymi światami i szablonami aren CaveWars.
+  caveworlds: Zarządzanie tymczasowymi światami i szablonami aren CaveWars.
+  dm: Administracja menu DeluxeMenus.
+  deluxemenus: Administracja menu DeluxeMenus.
+  mv: Zarządzanie światami Multiverse.
+  multiverse: Zarządzanie światami Multiverse.
+  mvtp: Teleportacja pomiędzy światami Multiverse.
+  grim: Administracja systemem AntyCheat GrimAC.
+  backup: Ręczne zarządzanie backupami CaveWars.
+  npc: Zarządzanie postaciami NPC (Non-Player Character — postać niezależna).
+  citizens: Administracja pluginem Citizens i jego NPC.
+  essentials: Administracja podstawowymi komendami i ustawieniami Essentials.
+  vault-info: Informacje diagnostyczne o integracjach Vault.
